@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#val
+		{
+			border-style: hidden;
+			padding: 25px;
+		}
+	</style>
+</head>
+<body>
+<input type="color" id='val' onchange="clr()">
+<script type="text/javascript">
+	function clr()
+		{
+			var valu=document.getElementById('val').value;
+			document.getElementById('val').style.backgroundColor=valu;
+			console.log(valu);
+		}
+</script>
+</body>
+</html>

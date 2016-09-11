@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			margin:0px;
+			box-sizing:border-box;
+			user-select:none;
+			-webkit-user-select:none;
+
+		} 
+		#canv
+		{
+			display:block;
+			margin: 0px;
+		}
+		.head
+		{
+			height: 80px;
+			width: 100%;
+			background-color: black;
+			position: fixed;
+		}
+		.lef
+		{
+			color: white;
+			line-height: 32px;
+			font-size: 25px;
+		}
+		.con
+		{
+			display: inline-block;
+			color:black;
+			margin-top: 20px;
+			height: 30px;
+			width: 30px;
+			text-align: center;
+			padding: 5px;
+			font-size: 25px;
+			background-color: white;
+			border-radius: 5px;
+		}
+		.siz
+		{
+			padding: 15px;
+			color:red;		
+		}
+	</style>
+</head>
+<body>
+<div class='head'>
+<div class='lef'>
+
+Size:<span class='siz' id='curval'>20</span>
+<div class='con' id='inc'>+</div>
+<div class='con' id='dec'>-</div>
+
+</div>
+</div>
+<canvas id='canv'>
+	
+</canvas>
+<script type="text/javascript" src='main.js'></script>
+<script type="text/javascript" src='size.js'></script>
+</body>
+</html>
